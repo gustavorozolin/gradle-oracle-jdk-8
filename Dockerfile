@@ -7,4 +7,4 @@ RUN wget -q https://services.gradle.org/distributions/gradle-4.8-bin.zip \
     && rm gradle-4.8-bin.zip
 
 ENV GRADLE_HOME /opt/gradle-4.8
-ENV PATH $PATH:/opt/gradle-4.8/bin
+ENV PATH ${PATH}:/opt/gradle-4.8/bin
